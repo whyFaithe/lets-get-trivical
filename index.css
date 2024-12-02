@@ -53,6 +53,7 @@ button{
     justify-content: space-between;
     align-items: center;
     gap: .5em;
+    z-index:100;
 }
 .header .logo{
     font-size: 1.5em;
@@ -254,7 +255,7 @@ button{
     position: absolute;
     left: 50%;
     transform: translateX(-50%) rotate(-.5deg); 
-    z-index: -1;
+    z-index: -5;
 }
 
 .quiz-title span::before {
