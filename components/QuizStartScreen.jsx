@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import QuizBackground from "./QuizBackground.js";
+import QuizBackground from "./QuizBackground";
 
 export default function QuizStartScreen({ onClick, categories }) {
   
