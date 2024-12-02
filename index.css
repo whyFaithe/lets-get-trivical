@@ -17,6 +17,7 @@ main{
     background: none;
     position: relative;
     color: #293264;
+    overflow: auto;
 }
 
 h1,h2{
