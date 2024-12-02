@@ -65,10 +65,8 @@ export default function Quiz({ token, options}) {
                 isCorrect: q.correct_answer === ans
                 })).sort((a, b) => a.sortNum - b.sortNum);
 
-                return {
-                ...q,
-                shuffledAnsOptions: shuffledOptionsWithRandom
-                };
+                return {...q, shuffledAnsOptions: shuffledOptionsWithRandom};
+                
             } catch (error) {
                 console.error('Error processing question:', error);
                 return null;
